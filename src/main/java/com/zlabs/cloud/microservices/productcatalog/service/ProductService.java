@@ -49,4 +49,8 @@ public class ProductService {
     public List<Products> getAvailableNumberOfProductsBySeller(String seller){
         return productRepository.getProductsBySeller(seller);
     }
+
+    public Products addProduct(Products product){
+        return productRepository.save(product);
+    }
 }

@@ -2,7 +2,7 @@ DROP TABLE products IF EXISTS;
 
 /* CREATE TABLE */
 CREATE TABLE products(
-skuID DOUBLE,
+skuID NUMBER,
 product_name VARCHAR(100),
 product_description VARCHAR(100),
 seller VARCHAR(100),
